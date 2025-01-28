@@ -1,0 +1,30 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* NotCallOut-EzBlock CSS */
+.callout[data-callout="notcallout"] {
+    --callout-color: #ffffff00;
+    --callout-icon: none;
+    padding: 0;
+    --callout-border-width: 0;
+}
+/* 不显示title,icon */
+.callout[data-callout="notcallout"] .callout-title .callout-icon {
+    display: none;
+}
+.callout[data-callout="notcallout"] .callout-title-inner {
+    display: none;
+}
+/* 边距 */
+.callout[data-callout="notcallout"] .callout-content :first-child {
+    margin-top: 0;
+}
+.callout[data-callout="notcallout"] .callout-content :last-child {
+    margin-bottom: 0;
+}

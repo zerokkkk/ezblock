@@ -1,0 +1,24 @@
+{
+  "name": "ezblock",
+  "version": "1.0.0",
+  "description": "Conveniently and flexibly specify blocks to facilitate block references. It implements custom callout CSS and provides an option in the right-click menu to convert the selected content into a block",
+  "main": "main.js",
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.17.3",
+    "obsidian": "^1.7.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build1": "tsc src/main.ts",
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "author": "zerokkkk",
+  "license": "MIT"
+}
