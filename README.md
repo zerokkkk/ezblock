@@ -5,7 +5,7 @@ EzBlock is a convenient and flexible plugin for specifying blocks to facilitate 
 ## Features
 
 `notcallout` is a new CSS class added by the plugin.  
-Content modified by this class looks almost the same as content without it, both in preview mode and reading mode.
+Content modified by this class looks **almost the same** as content without it, both in preview mode and reading mode.
 
 ```markdown
 > [!notcallout]
@@ -39,13 +39,13 @@ cite example with/without `notcallout` block
 
 <img src=".\screenshots\image-20250205160939506.png" alt="image-20250205160939506" style="zoom:40%;" /><img src=".\screenshots\image-20250205161121287.png" alt="image-20250205161121287" style="zoom:40%;" />
 
-The plugin also adds a shortcut feature in the right-click menu to convert selected content into a `notcallout` block or to unblock a selected block.
-- When converting to a `notcallout` block, the range includes all lines within the selected area.
-- When unblocking, the selected area must contain only one block (which can be quote or callout of any class; only the outermost block is counted).
+The plugin also adds a shortcut feature in the **right-click menu** to convert selected content into a `notcallout` block or to unblock a selected block.
+- When **converting to a** `notcallout` **block**, the range includes all lines within the selected area.
+- When **unblocking**, the selected area must contain only one block (which can be quote or callout of any class; only the outermost block is counted).
 
 ### Limitations
 
-Due to the limitations of callouts and block references in Obsidian, nested blocks cannot be referenced.
+Due to the limitations of callouts and block references in Obsidian, **nested** blocks **cannot** be referenced.
 
 
 
