@@ -15,7 +15,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build1": "tsc src/main.ts",
     "dev": "node esbuild.config.mjs",
     "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
   },
