@@ -6,6 +6,5 @@
 	"description": "Conveniently and flexibly specify blocks to facilitate block references. It implements custom callout CSS and provides an option in the right-click menu to convert the selected content into a block.",
 	"author": "zerokkkk",
 	"authorUrl": "https://github.com/zerokkkk",
-	"fundingUrl": "https://obsidian.md/pricing",
 	"isDesktopOnly": false
 }
